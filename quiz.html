@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/responsive-style.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<section class="header-sec">
+		<div class="container">
+			<div class="row mt-4">
+				<div class="col-12 col-md-4 d-flex justify-content-center">
+					<div class="logo">
+						<a href="#"><img src="./assets/images/1.png" alt=""></a>
+					</div>
+				</div>
+				<div class="col-12 col-md-8 d-flex justify-content-center">
+					<div class="case">
+						<img src="./assets/images/2.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="quiz-sec">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<form action="#" method="post" class="quizz-col">
+						<h2><img src="./assets/images/14.png" alt="#"><span>Quizz</span><img src="./assets/images/15.png" alt="#"></h2>
+						<h3>POUR CHAQUE BONNE RÉPONSE, 0,10€ SERONT REVERSÉS À NOS PRODUCTEURS DE LA FILIÈRE SOJA </h3>
+						<div class="w-100 quizz-field">
+							<h4>Quelle est lannée de naissance de la marque <span>SOY</span> ?</h4>
+							<div class="d-flex justify-content-center flex-wrap">
+								<label class="d-flex">
+									<input required="" type="radio" name="radio1">
+									<span>1600</span>
+								</label>
+								<label class="d-flex">
+									<input required="" type="radio" name="radio1">
+									<span>1982</span>
+								</label>
+								<label class="d-flex">
+									<input required="" type="radio" name="radio1">
+									<span>2030</span>
+								</label>
+							</div>
+						</div>
+						<div class="w-100 quizz-field">
+							<h4>Savez-vous ou se trouve notre atelier de production en France ?</h4>
+							<div class="d-flex justify-content-center flex-wrap">
+								<label class="d-flex">
+									<input required="" type="radio" name="radio2">
+									<span>Paris</span>
+								</label>
+								<label class="d-flex">
+									<input required="" type="radio" name="radio2">
+									<span>Monaco</span>
+								</label>
+								<label class="d-flex">
+									<input required="" type="radio" name="radio2">
+									<span>Revel</span>
+								</label>
+							</div>
+						</div>
+						<div class="w-100 quizz-field">
+							<h4>Ou est cultivé notre soja ?</h4>
+							<div class="d-flex justify-content-center flex-wrap">
+								<label class="d-flex">
+									<input required="" type="radio" name="radio3">
+									<span>En Occitanie</span>
+								</label>
+								<label class="d-flex">
+									<input required="" type="radio" name="radio3">
+									<span>En Laponie</span>
+								</label>
+								<label class="d-flex">
+									<input required="" type="radio" name="radio3">
+									<span>Très loin </span>
+								</label>
+							</div>
+						</div>
+						<div class="w-100 quizz-field">
+							<h4>Depuis toujours, les produits <span>SOY</span> sont ?</h4>
+							<div class="d-flex justify-content-center flex-wrap">
+								<label class="d-flex">
+									<input required="" type="radio" name="radio4">
+									<span>À&nbsp;base de protéines animales</span>
+								</label>
+								<label class="d-flex">
+									<input required="" type="radio" name="radio4">
+									<span>À&nbsp;base de protéines végétales</span>
+								</label>
+								<label class="d-flex">
+									<input required="" type="radio" name="radio4">
+									<span>À&nbsp;base d'insectes</span>
+								</label>
+							</div>
+						</div>
+						<div class="w-100 d-flex justify-content-center">
+							<a href="#"><button type="submit" class="d-btn-green d-btn">JE VALIDE MA PARTICIPATION </button></a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="footer-sec">
+		<div class="container-fluid p-0">
+			<div class="row m-0">
+				<div class="col-12 p-0 footer d-flex justify-content-center">
+					<ul class="d-flex">
+						<li>
+							<a href="#">Règlement de jeu</a>
+						</li>
+						<li>
+							<a href="#">Contact</a>
+						</li>
+						<li>
+							<a href="#">mentions légales</a>
+						</li>
+						<li>
+							<a href="#">Politique de protection des données</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="left-shadow"></div>
+	<div class="right-shadow"></div>
+
+	<script type="text/javascript" src="assets/js/jquery-3.3.1.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		setInterval(function () {
+			var con = ($('.header-sec .container').offset().left - 15);
+			$('.left-shadow, .right-shadow').css('width', con);
+		});
+	</script>
+</body>
+
+</html>

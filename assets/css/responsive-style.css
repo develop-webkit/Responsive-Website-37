@@ -1,0 +1,224 @@
+.visible-xs {
+	display: none !important;
+}
+
+.hidden-xs {
+	display: block !important;
+}
+
+@media(min-width: 1200px) {
+	.container {
+		max-width: 1050px;
+	}
+
+	.participation-sec .container {
+		max-width: 890px;
+	}
+}
+
+@media(min-width: 1400px) {
+	.container {
+		max-width: 1050px;
+	}
+
+	.participation-sec .container {
+		max-width: 890px;
+	}
+}
+
+@media(max-width: 1200px) {
+
+	html,
+	body {
+		font-size: 14px;
+	}
+}
+
+@media(max-width: 992px) {
+
+	html,
+	body {
+		font-size: 11px;
+	}
+}
+
+@media(max-width: 767px) {
+
+	html,
+	body {
+		overflow-x: hidden;
+	}
+
+	.visible-xs {
+		display: block !important;
+	}
+
+	.hidden-xs {
+		display: none !important;
+	}
+
+	.machine {
+		width: 100%
+	}
+
+	.hero-bottom .d-flex {
+		flex-wrap: wrap;
+		justify-content: center !important;
+	}
+
+	.hero-bottom .d-flex a:nth-child(3) button {
+		margin-top: 1rem
+	}
+
+	.footer-sec ul li {
+		margin: .5rem 1rem;
+	}
+
+	.footer-sec ul {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.under-moulinex {
+		margin-bottom: 2rem
+	}
+
+	.under-moulinex img {
+		display: none;
+	}
+
+	.hero-sec {
+		margin-top: 3rem
+	}
+
+	.machine {
+		top: -7rem;
+	}
+
+	.hero-bottom .d-flex h6 {
+		margin-right: 0;
+		margin: .5rem 0;
+	}
+
+	.hero-bottom .d-flex a:nth-child(2) button {
+		margin: 0 2rem
+	}
+
+	.participation-sec {
+		padding-top: 79vw;
+		padding-bottom: 4rem;
+		margin-top: -50vw;
+	}
+
+	.product-sec1 .col-md-6:nth-child(2) {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.product-sec1 {
+		background-size: cover;
+		background-position: 19% 0%;
+	}
+
+	.gourmand-content-p br {
+		display: none;
+	}
+
+	.hero-bottom p .hero-bottom-span2 {
+		line-height: .7
+	}
+
+	.hero-bottom p {
+		margin-top: 1.5rem;
+	}
+
+	.hero-bottom .d-flex {
+		padding-left: 0;
+	}
+
+	.header-sec .case img {
+		width: 37rem;
+		margin-top: 1rem;
+		max-width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	.product-sec1 button {
+		margin-left: 0;
+	}
+
+	.gourmand-content h1 {
+		font-size: 2.5rem;
+	}
+
+	.machine-content h2 {
+		font-size: 4rem;
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.machine-content h3 {
+		text-align: center;
+	}
+
+	.machine-content .roboto h1 {
+		max-width: 17rem;
+	}
+
+	.soy-sec h5 {
+		margin-top: 2rem;
+	}
+
+	.revel-content h5,
+	.revel-content img {
+		max-width: 50%;
+	}
+
+	.revel-content h5 {
+		padding-left: 1rem;
+	}
+
+	.revel-content {
+		gap: 0rem;
+	}
+
+	.soy-sec img {
+		margin: auto;
+		display: block;
+	}
+
+	.quizz-col h3 {
+		padding: 0;
+	}
+}
+
+@media(max-width: 400px) {
+	.machine-content h3 {
+		font-size: 1.7rem;
+	}
+
+	.machine-content .roboto span {
+		font-size: 13rem;
+		line-height: 17rem;
+	}
+
+	.machine-content .roboto h1 {
+		font-size: 4.5rem;
+	}
+
+	.machine-content h4 {
+		font-size: 3.2rem;
+	}
+
+	.machine-content .roboto h1 {
+		max-width: 14rem;
+	}
+
+	.machine-content h4 {
+		padding-left: 1rem;
+	}
+}

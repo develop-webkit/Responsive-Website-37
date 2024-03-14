@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/responsive-style.css">
+	<title>Home</title>
+</head>
+
+<body>
+	<section class="header-sec">
+		<div class="container">
+			<div class="row mt-4">
+				<div class="col-12 col-md-4 d-flex justify-content-center">
+					<div class="logo">
+						<a href="#"><img src="./assets/images/1.png" alt=""></a>
+					</div>
+				</div>
+				<div class="col-12 col-md-8 d-flex justify-content-center">
+					<div class="case">
+						<img src="./assets/images/2.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="hero-sec">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-5">
+					<div class="machine">
+						<img src="./assets/images/3.png" alt="">
+					</div>
+				</div>
+				<div class="col-12 col-md-7 d-flex justify-content-center">
+					<div class="machine-content">
+						<h2><span class="heading-2-span">à</span> gagner</h2>
+						<h3>POUR L’ACHAT D’UN PRODUIT SOY</h3>
+						<div class="roboto">
+							<span>10</span>
+							<h1> Robots cuiseurs</h1>
+						</div>
+						<h4>Companion Moulinex</h4>
+						<div class="under-moulinex">
+							<img src="./assets/images/4.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-12 hero-bottom">
+					<p><span class="hero-bottom-span1">Et pour chaque participation</span> <span
+							class="hero-bottom-span2">0,40€</span> reversés à nos producteurs de la filière soja</p>
+					<div class="d-flex w-100 align-items-center justify-content-between">
+						<h6>DÉJA RÉCOLTÉ :</h6>
+						<a href="#"><button type="button" class="d-btn-red">XXX,xx€</button></a>
+						<a href="#"><button type="button" class="d-btn-green">JE PARTICIPE</button></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="footer-sec">
+		<div class="container-fluid p-0">
+			<div class="row m-0">
+				<div class="col-12 p-0 footer d-flex justify-content-center">
+					<ul class="d-flex">
+						<li>
+							<a href="#">Règlement de jeu</a>
+						</li>
+						<li>
+							<a href="#">Contact</a>
+						</li>
+						<li>
+							<a href="#">mentions légales</a>
+						</li>
+						<li>
+							<a href="#">Politique de protection des données</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="left-shadow"></div>
+	<div class="right-shadow"></div>
+
+
+
+	<script type="text/javascript" src="assets/js/jquery-3.3.1.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		setInterval(function () {
+			var con = ($('.header-sec .container').offset().left - 15);
+			$('.left-shadow, .right-shadow').css('width', con);
+		});
+	</script>
+</body>
+
+</html>
